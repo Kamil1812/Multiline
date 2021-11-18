@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application - cwiczenie</string>
-    <string name="my_name">Kamil \n Niewiadomski</string>
+    <string name="my_name"> Kamil\n Niewiadomski </string>
+    <string name ="my_name2"> Imie (obok) Nazwisko </string>
 </resources>

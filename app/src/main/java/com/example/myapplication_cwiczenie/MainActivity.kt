@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         var tString = findViewById<TextView>(R.id.Tekst);
         var tRunTime = findViewById<TextView>(R.id.Runtime);
 
-        var Runtime = "Kamil \n Niewiadomski";
+        var Runtime = "Kamil Niewiadomski";
 
         bRuntime.setOnClickListener()
         {
