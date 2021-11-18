@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/Runtime" />
 
     <Button
         android:id="@+id/btn2"
@@ -25,10 +25,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/Runtime" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/Runtime"
         android:layout_width="267dp"
         android:layout_height="75dp"
         android:ems="10"
@@ -42,11 +42,11 @@
         app:layout_constraintVertical_bias="0.664" />
 
     <MultiAutoCompleteTextView
-        android:id="@+id/multiAutoCompleteTextView"
+        android:id="@+id/Tekst"
         android:layout_width="269dp"
         android:layout_height="84dp"
         android:text="@string/my_name"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Runtime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
